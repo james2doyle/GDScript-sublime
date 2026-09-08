@@ -1,0 +1,93 @@
+{
+    "scope": "source.gdscript",
+    "completions": [
+        {
+            "trigger": "init\tfunc _init()",
+            "contents": "func _init() -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "enter_tree\tfunc _enter_tree()",
+            "contents": "func _enter_tree() -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "ready\tfunc _ready()",
+            "contents": "func _ready() -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "process\tfunc _process(delta)",
+            "contents": "func _process(delta: float) -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "physics_process\tfunc _physics_process(delta)",
+            "contents": "func _physics_process(delta: float) -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "exit_tree\tfunc _exit_tree()",
+            "contents": "func _exit_tree() -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "input\tfunc _input(event)",
+            "contents": "func _input(event: InputEvent) -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "unhandled_input\tfunc _unhandled_input(event)",
+            "contents": "func _unhandled_input(event: InputEvent) -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "unhandled_key_input\tfunc _unhandled_key_input(event)",
+            "contents": "func _unhandled_key_input(event: InputEvent) -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "shortcut_input\tfunc _shortcut_input(event)",
+            "contents": "func _shortcut_input(event: InputEvent) -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "notification\tfunc _notification(what)",
+            "contents": "func _notification(what: int) -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "get_configuration_warnings\tfunc _get_configuration_warnings()",
+            "contents": "func _get_configuration_warnings() -> PackedStringArray:\n\treturn PackedStringArray([${1}])"
+        },
+        {
+            "trigger": "ready\tfunc _on_ready()",
+            "contents": "func _on_ready() -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "renamed\tfunc _on_renamed()",
+            "contents": "func _on_renamed() -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "tree_entered\tfunc _on_tree_entered()",
+            "contents": "func _on_tree_entered() -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "tree_exiting\tfunc _on_tree_exiting()",
+            "contents": "func _on_tree_exiting() -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "tree_exited\tfunc _on_tree_exited()",
+            "contents": "func _on_tree_exited() -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "child_entered_tree\tfunc _on_child_entered_tree(node)",
+            "contents": "func _on_child_entered_tree(node: Node) -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "child_exiting_tree\tfunc _on_child_exiting_tree(node)",
+            "contents": "func _on_child_exiting_tree(node: Node) -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "child_order_changed\tfunc _on_child_order_changed()",
+            "contents": "func _on_child_order_changed() -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "replacing_by\tfunc _on_replacing_by(to_node)",
+            "contents": "func _on_replacing_by(to_node: Node) -> void:\n\t${1:pass}"
+        },
+        {
+            "trigger": "editor_description_changed\tfunc _on_editor_description_changed(node)",
+            "contents": "func _on_editor_description_changed(node: Node) -> void:\n\t${1:pass}"
+        }
+    ]
+}
