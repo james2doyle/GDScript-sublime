@@ -1,0 +1,129 @@
+{
+    "scope": "source.gdscript",
+    "completions": [
+        {
+            "trigger": "export\t@export var",
+            "contents": "@export var ${1:variable_name}: ${2:int} = ${3:0}"
+        },
+        {
+            "trigger": "export_category\t@export_category(...)",
+            "contents": "@export_category(\"${1:Category Name}\")"
+        },
+        {
+            "trigger": "export_group\t@export_group(...)",
+            "contents": "@export_group(\"${1:Group Name}\", \"${2:prefix_}\")"
+        },
+        {
+            "trigger": "export_subgroup\t@export_subgroup(...)",
+            "contents": "@export_subgroup(\"${1:Subgroup Name}\", \"${2:prefix_}\")"
+        },
+        {
+            "trigger": "export_range\t@export_range(min, max, step)",
+            "contents": "@export_range(${1:0}, ${2:100}, ${3:1}) var ${4:variable_name}: ${5:int} = ${6:0}"
+        },
+        {
+            "trigger": "export_range_float\t@export_range(float)",
+            "contents": "@export_range(${1:0.0}, ${2:1.0}, ${3:0.01}, \"or_greater\", \"or_less\") var ${4:variable_name}: float = ${5:0.0}"
+        },
+        {
+            "trigger": "export_exp_range\t@export_exp_range(...)",
+            "contents": "@export_exp_range(${1:0.1}, ${2:1000.0}) var ${3:variable_name}: float = ${4:1.0}"
+        },
+        {
+            "trigger": "export_angle\t@export_range(radians_as_degrees)",
+            "contents": "@export_range(0, 360, 0.1, \"radians_as_degrees\") var ${1:angle_rad}: float = ${2:0.0}"
+        },
+        {
+            "trigger": "export_multiline\t@export_multiline",
+            "contents": "@export_multiline var ${1:text}: String = \"${2}\""
+        },
+        {
+            "trigger": "export_placeholder\t@export_placeholder(...)",
+            "contents": "@export_placeholder(\"${1:Enter text...}\") var ${2:variable_name}: String"
+        },
+        {
+            "trigger": "export_file\t@export_file(\"*.ext\")",
+            "contents": "@export_file(\"*.${1:tscn}\") var ${2:file_path}: String"
+        },
+        {
+            "trigger": "export_dir\t@export_dir",
+            "contents": "@export_dir var ${1:dir_path}: String"
+        },
+        {
+            "trigger": "export_global_file\t@export_global_file(...)",
+            "contents": "@export_global_file(\"*.${1:png}\") var ${2:global_file_path}: String"
+        },
+        {
+            "trigger": "export_global_dir\t@export_global_dir",
+            "contents": "@export_global_dir var ${1:global_dir_path}: String"
+        },
+        {
+            "trigger": "export_color_no_alpha\t@export_color_no_alpha",
+            "contents": "@export_color_no_alpha var ${1:color_name}: Color = Color.${2:WHITE}"
+        },
+        {
+            "trigger": "export_enum\t@export_enum(\"A\", \"B\")",
+            "contents": "@export_enum(\"${1:Option1}\", \"${2:Option2}\") var ${3:selected_option}: int = 0"
+        },
+        {
+            "trigger": "export_flags\t@export_flags(\"F1\", \"F2\")",
+            "contents": "@export_flags(\"${1:Flag1}\", \"${2:Flag2}\") var ${3:flags_mask}: int = 0"
+        },
+        {
+            "trigger": "export_flags_2d_physics\t@export_flags_2d_physics",
+            "contents": "@export_flags_2d_physics var ${1:physics_mask}: int"
+        },
+        {
+            "trigger": "export_flags_3d_physics\t@export_flags_3d_physics",
+            "contents": "@export_flags_3d_physics var ${1:physics_mask}: int"
+        },
+        {
+            "trigger": "export_flags_2d_navigation\t@export_flags_2d_navigation",
+            "contents": "@export_flags_2d_navigation var ${1:nav_mask}: int"
+        },
+        {
+            "trigger": "export_flags_3d_navigation\t@export_flags_3d_navigation",
+            "contents": "@export_flags_3d_navigation var ${1:nav_mask}: int"
+        },
+        {
+            "trigger": "export_flags_2d_render\t@export_flags_2d_render",
+            "contents": "@export_flags_2d_render var ${1:render_mask}: int"
+        },
+        {
+            "trigger": "export_flags_3d_render\t@export_flags_3d_render",
+            "contents": "@export_flags_3d_render var ${1:render_mask}: int"
+        },
+        {
+            "trigger": "export_node\t@export Node reference",
+            "contents": "@export var ${1:node_name}: ${2:Node2D}"
+        },
+        {
+            "trigger": "export_resource\t@export Resource",
+            "contents": "@export var ${1:resource_name}: ${2:Resource}"
+        },
+        {
+            "trigger": "export_array\t@export Array[Type]",
+            "contents": "@export var ${1:array_name}: Array[${2:int}] = []"
+        },
+        {
+            "trigger": "export_array_resource\t@export Array[Resource]",
+            "contents": "@export var ${1:resources_array}: Array[${2:Resource}] = []"
+        },
+        {
+            "trigger": "export_dictionary\t@export Dictionary",
+            "contents": "@export var ${1:dict_name}: Dictionary = {}"
+        },
+        {
+            "trigger": "export_storage\t@export_storage (Hidden in Inspector)",
+            "contents": "@export_storage var ${1:hidden_property}: ${2:Variant}"
+        },
+        {
+            "trigger": "export_custom\t@export_custom(...)",
+            "contents": "@export_custom(PROPERTY_HINT_${1:NONE}, \"${2:hint_string}\") var ${3:variable_name}: ${4:Variant}"
+        },
+        {
+            "trigger": "export_tool_button\t@export_tool_button(...)",
+            "contents": "@export_tool_button(\"${1:Button Text}\") var ${2:button_action} = ${3:method_name}"
+        }
+    ]
+}
